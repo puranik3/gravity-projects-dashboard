@@ -1,0 +1,23 @@
+header #page-title {
+	text-align : center;
+}
+
+header #page-subtitle {
+	font-weight : normal;
+}
+
+.app-dashboard {
+	margin-bottom : 10px;
+}
+
+.app-dashboard-title {
+	padding-left : 10px;
+	margin : 0;
+    cursor : pointer;
+}
+
+.app-dashboard-content {
+	display : block;
+	width : 100%;
+	padding-left : 10px;
+}

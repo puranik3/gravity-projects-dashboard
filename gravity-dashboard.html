@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gravity | Dashboard</title>
+		<link rel="stylesheet" href="css/app.css">
+	</head>
+	<body>
+		<header>
+			<h1 id="page-title">Gravity dashboard</h1>
+            <hr/>
+			<h3 id="page-subtitle">This page gives a consolidated view of projects under the Gravity umbrella. Tap on the project title to view details.</h3>
+		</header> 
+		<div class="app-dashboards"></div>
+
+		<!-- Template for app dashboards -->
+		<script type="text/template" id="tplAppDashboard">
+			<div class="app-dashboard">
+				<h2 class="app-dashboard-title"></h2>
+				<iframe class="app-dashboard-content" frameborder="0" allowfullscreen>
+					Sorry, your browser does not support inline frames
+				</iframe>
+			</div>
+		</script>
+
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>
